@@ -5,10 +5,16 @@
 	<style>
 		body{
 			color: #fff;
-			font-family: 'Nunito Semibold';
+			font-family: Arial;
 			text-align: center;
 		}
 		#content{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			/*grid-template-rows: 200px 200px 400px 200px;*/
+			/*grid-template-rows: 200px;*/
+			/*grid-template-rows: minmmax(200px, auto);*/
+			grid-template-rows: repeat(3, minmax(200px, auto));
 			max-width: 960px;
 			margin: 0 auto;
 		}
@@ -28,7 +34,7 @@
 
 		<div>1</div>
 		<div>2</div>
-		<div>3</div>
+		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis delectus, cupiditate quas suscipit aspernatur officia dolorum sed sunt nostrum distinctio repellendus laborum voluptatem dolore, officiis deserunt blanditiis et eaque rerum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, ducimus illo temporibus nam architecto natus, doloribus. Reiciendis inventore quia, ut est rerum atque voluptatem omnis reprehenderit ab. Minima, culpa, atque.</div>
 		<div>4</div>
 		<div>5</div>
 		<div>6</div>
